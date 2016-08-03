@@ -1,0 +1,11 @@
+title: Say hello 20160803 171355
+given:
+  - time: 2016-08-03T17:13:55.237-04:00
+wts:
+  - when: |
+       GET message
+       Cookie: RestxSession-MyApp={"principal":"test@test.com","sessionKey":"04d5d0f9-a640-4db5-9a1f-e406695b6287","_expires":"2016-09-02T17:13:55.237-04:00"}; RestxSessionSignature-MyApp=uKMFPADyF8NrZJZhrUK3Uf7H+C4=
+    then: |
+       401
+
+        Unauthorized
